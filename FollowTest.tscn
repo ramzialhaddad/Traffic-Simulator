@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://xquofgo31gdb"]
+
+[ext_resource type="Texture2D" uid="uid://inwf44523if" path="res://Car.png" id="1_wdk5a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Car" type="Sprite2D" parent="."]
+position = Vector2(297, 342)
+texture = ExtResource("1_wdk5a")
+
+[node name="Car2" type="Sprite2D" parent="."]
+position = Vector2(304, 135)
+texture = ExtResource("1_wdk5a")
